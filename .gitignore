@@ -1,0 +1,6 @@
+.claude/
+samples/
+out/
+build-wasm/
+node_modules/
+*.report.json

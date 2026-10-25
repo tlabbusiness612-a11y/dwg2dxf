@@ -1,0 +1,2828 @@
+[
+ {
+  "file": "/2000/Arc.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 173717,
+  "dxfBytes": 325542,
+  "ms": {
+   "load": 10,
+   "convert": 67,
+   "analyze": 5
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Cone.dwg",
+  "verdict": "loss",
+  "code": 4,
+  "dwg": "r2000",
+  "dwgBytes": 177037,
+  "dxfBytes": 330849,
+  "ms": {
+   "load": 30,
+   "convert": 15,
+   "analyze": 2
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 7 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 21 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Constraints.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2000",
+  "dwgBytes": 146857,
+  "dxfBytes": 272263,
+  "ms": {
+   "load": 16,
+   "convert": 10,
+   "analyze": 2
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 5 件）",
+   "warn: LibreDWGのログにエラー行が 1 件あります",
+   "info: LibreDWGのログに警告行が 17 件あります"
+  ]
+ },
+ {
+  "file": "/2000/ConstructionLine.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 173829,
+  "dxfBytes": 325709,
+  "ms": {
+   "load": 20,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Donut.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 173705,
+  "dxfBytes": 325561,
+  "ms": {
+   "load": 15,
+   "convert": 11,
+   "analyze": 2
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Ellipse.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 173726,
+  "dxfBytes": 325610,
+  "ms": {
+   "load": 13,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Helix.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 180176,
+  "dxfBytes": 325447,
+  "ms": {
+   "load": 11,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 1 個あります",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 17 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Leader.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 202493,
+  "dxfBytes": 387131,
+  "ms": {
+   "load": 10,
+   "convert": 14,
+   "analyze": 2
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: ラスター画像の参照が 1 件あります（画像ファイルは含まれません）",
+   "info: LibreDWGのログに警告行が 25 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Line.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 174005,
+  "dxfBytes": 326117,
+  "ms": {
+   "load": 11,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Multiline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 177722,
+  "dxfBytes": 334626,
+  "ms": {
+   "load": 10,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Point.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 173749,
+  "dxfBytes": 325602,
+  "ms": {
+   "load": 10,
+   "convert": 11,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/PolyLine2D.dwg",
+  "verdict": "loss",
+  "code": 4,
+  "dwg": "r2000",
+  "dwgBytes": 113029,
+  "dxfBytes": 204144,
+  "ms": {
+   "load": 11,
+   "convert": 6,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "error: 図形数の不一致: DXFに出力されていない図形が 1 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 7 件、所有者 5 件）",
+   "info: LibreDWGのログに警告行が 27 件あります"
+  ]
+ },
+ {
+  "file": "/2000/PolyLine3D.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 179722,
+  "dxfBytes": 338141,
+  "ms": {
+   "load": 17,
+   "convert": 16,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Polygon.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 173842,
+  "dxfBytes": 325923,
+  "ms": {
+   "load": 17,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Polyline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 179491,
+  "dxfBytes": 337269,
+  "ms": {
+   "load": 8,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/RAY.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 173716,
+  "dxfBytes": 325444,
+  "ms": {
+   "load": 10,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Spline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 173739,
+  "dxfBytes": 325765,
+  "ms": {
+   "load": 12,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/TS1.dwg",
+  "verdict": "loss",
+  "code": 4,
+  "dwg": "r2000",
+  "dwgBytes": 418007,
+  "dxfBytes": 885893,
+  "ms": {
+   "load": 10,
+   "convert": 37,
+   "analyze": 2
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "error: 図形数の不一致: DXFに出力されていない図形が 1 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: OLEオブジェクトを含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（4 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 7 件、所有者 19 件）",
+   "info: LibreDWGのログに警告行が 53 件あります"
+  ]
+ },
+ {
+  "file": "/2000/Text.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 179310,
+  "dxfBytes": 336809,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 16 件あります"
+  ]
+ },
+ {
+  "file": "/2000/circle.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 177345,
+  "dxfBytes": 332856,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/entities-2d.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 24028,
+  "dxfBytes": 56758,
+  "ms": {
+   "load": 8,
+   "convert": 3,
+   "analyze": 0
+  },
+  "issues": [
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2000/entities-3d.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 23955,
+  "dxfBytes": 56488,
+  "ms": {
+   "load": 9,
+   "convert": 2,
+   "analyze": 0
+  },
+  "issues": [
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Arc.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 62825,
+  "dxfBytes": 324885,
+  "ms": {
+   "load": 9,
+   "convert": 12,
+   "analyze": 2
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Constraints.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 63816,
+  "dxfBytes": 375696,
+  "ms": {
+   "load": 8,
+   "convert": 22,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 5 件）",
+   "warn: LibreDWGのログにエラー行が 1 件あります",
+   "info: LibreDWGのログに警告行が 17 件あります"
+  ]
+ },
+ {
+  "file": "/2004/ConstructionLine.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 62280,
+  "dxfBytes": 325049,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Donut.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 61638,
+  "dxfBytes": 324903,
+  "ms": {
+   "load": 8,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Ellipse.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 63081,
+  "dxfBytes": 324952,
+  "ms": {
+   "load": 8,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/HatchG.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2004",
+  "dwgBytes": 59489,
+  "dxfBytes": 357560,
+  "ms": {
+   "load": 9,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: ラスター画像の参照が 1 件あります（画像ファイルは含まれません）",
+   "info: LibreDWGのログに警告行が 21 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Helix.dwg",
+  "verdict": "loss",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 68656,
+  "dxfBytes": 324804,
+  "ms": {
+   "load": 9,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "error: 図形数の不一致: DXFに出力されていない図形が 1 個あります",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 17 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Leader.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 71047,
+  "dxfBytes": 386970,
+  "ms": {
+   "load": 8,
+   "convert": 11,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: ラスター画像の参照が 1 件あります（画像ファイルは含まれません）",
+   "info: LibreDWGのログに警告行が 26 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Line.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 62118,
+  "dxfBytes": 325538,
+  "ms": {
+   "load": 10,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Multiline.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 65605,
+  "dxfBytes": 333966,
+  "ms": {
+   "load": 7,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Point.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 61348,
+  "dxfBytes": 324944,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/PolyLine3D.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 63044,
+  "dxfBytes": 337483,
+  "ms": {
+   "load": 9,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Polygon.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 62633,
+  "dxfBytes": 325265,
+  "ms": {
+   "load": 10,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Polyline.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 62884,
+  "dxfBytes": 336609,
+  "ms": {
+   "load": 10,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/RAY.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 61833,
+  "dxfBytes": 324784,
+  "ms": {
+   "load": 11,
+   "convert": 11,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Spline.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 61545,
+  "dxfBytes": 325106,
+  "ms": {
+   "load": 8,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Surface.dwg",
+  "verdict": "loss",
+  "code": 4,
+  "dwg": "r2004",
+  "dwgBytes": 162991,
+  "dxfBytes": 613289,
+  "ms": {
+   "load": 9,
+   "convert": 23,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "error: 図形数の不一致: DXFに出力されていない図形が 5 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（9 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 7 件、所有者 4 件）",
+   "warn: LibreDWGのログにエラー行が 15 件あります",
+   "info: LibreDWGのログに警告行が 105 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Text.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 62180,
+  "dxfBytes": 336034,
+  "ms": {
+   "load": 9,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 16 件あります"
+  ]
+ },
+ {
+  "file": "/2004/Underlay.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 70412,
+  "dxfBytes": 447550,
+  "ms": {
+   "load": 8,
+   "convert": 15,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 3 件あります",
+   "info: LibreDWGのログに警告行が 16 件あります"
+  ]
+ },
+ {
+  "file": "/2004/circle.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2004",
+  "dwgBytes": 64038,
+  "dxfBytes": 332198,
+  "ms": {
+   "load": 11,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2004/material.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2004",
+  "dwgBytes": 1466173,
+  "dxfBytes": 3355171,
+  "ms": {
+   "load": 11,
+   "convert": 91,
+   "analyze": 3
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 7 件、所有者 5 件）",
+   "info: LibreDWGのログに警告行が 19 件あります"
+  ]
+ },
+ {
+  "file": "/2007/ATMOS-DC22S.dwg",
+  "verdict": "loss",
+  "code": 4,
+  "dwg": "r2007",
+  "dwgBytes": 398400,
+  "dxfBytes": 783646,
+  "ms": {
+   "load": 8,
+   "convert": 36,
+   "analyze": 2
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（8 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 22 件、所有者 95 件）",
+   "info: ラスター画像の参照が 4 件あります（画像ファイルは含まれません）",
+   "warn: LibreDWGのログにエラー行が 1 件あります",
+   "info: LibreDWGのログに警告行が 81 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Arc.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 75392,
+  "dxfBytes": 325695,
+  "ms": {
+   "load": 7,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Constraints.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2007",
+  "dwgBytes": 320256,
+  "dxfBytes": 867636,
+  "ms": {
+   "load": 8,
+   "convert": 27,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 5 件）",
+   "warn: LibreDWGのログにエラー行が 3 件あります",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2007/ConstructionLine.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 75136,
+  "dxfBytes": 325862,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Donut.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 75136,
+  "dxfBytes": 325713,
+  "ms": {
+   "load": 7,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Ellipse.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 75392,
+  "dxfBytes": 325762,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Helix.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 81792,
+  "dxfBytes": 325614,
+  "ms": {
+   "load": 7,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 1 個あります",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Leader.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 328192,
+  "dxfBytes": 879388,
+  "ms": {
+   "load": 10,
+   "convert": 28,
+   "analyze": 2
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: ラスター画像の参照が 1 件あります（画像ファイルは含まれません）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 19 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Line.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 74880,
+  "dxfBytes": 326348,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Multiline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 77728,
+  "dxfBytes": 334776,
+  "ms": {
+   "load": 8,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Point.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 74624,
+  "dxfBytes": 325754,
+  "ms": {
+   "load": 8,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/PolyLine3D.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 75936,
+  "dxfBytes": 338293,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Polygon.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 75392,
+  "dxfBytes": 326075,
+  "ms": {
+   "load": 7,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Polyline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 75936,
+  "dxfBytes": 337419,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/RAY.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 75136,
+  "dxfBytes": 325594,
+  "ms": {
+   "load": 7,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Spline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 74624,
+  "dxfBytes": 325916,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/Text.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 76448,
+  "dxfBytes": 336854,
+  "ms": {
+   "load": 10,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2007/circle.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2007",
+  "dwgBytes": 77472,
+  "dxfBytes": 333008,
+  "ms": {
+   "load": 7,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Arc.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 63276,
+  "dxfBytes": 272832,
+  "ms": {
+   "load": 8,
+   "convert": 8,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Constraints.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2010",
+  "dwgBytes": 303057,
+  "dxfBytes": 814773,
+  "ms": {
+   "load": 9,
+   "convert": 25,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（4 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 6 件）",
+   "warn: LibreDWGのログにエラー行が 1 件あります",
+   "info: LibreDWGのログに警告行が 16 件あります"
+  ]
+ },
+ {
+  "file": "/2010/ConstructionLine.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 63178,
+  "dxfBytes": 273002,
+  "ms": {
+   "load": 8,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Donut.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 62060,
+  "dxfBytes": 272850,
+  "ms": {
+   "load": 9,
+   "convert": 8,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Ellipse.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 63468,
+  "dxfBytes": 272899,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Helix.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 68650,
+  "dxfBytes": 272751,
+  "ms": {
+   "load": 8,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 1 個あります",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 16 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Leader.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2010",
+  "dwgBytes": 359144,
+  "dxfBytes": 263599,
+  "ms": {
+   "load": 9,
+   "convert": 8,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（4 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 7 件、所有者 4 件）",
+   "info: ラスター画像の参照が 1 件あります（画像ファイルは含まれません）",
+   "warn: LibreDWGのログにエラー行が 3 件あります",
+   "info: LibreDWGのログに警告行が 17 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Line.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 62664,
+  "dxfBytes": 273485,
+  "ms": {
+   "load": 8,
+   "convert": 8,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Multiline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 65836,
+  "dxfBytes": 281913,
+  "ms": {
+   "load": 8,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Point.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 61735,
+  "dxfBytes": 272891,
+  "ms": {
+   "load": 9,
+   "convert": 8,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/PolyLine3D.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 63399,
+  "dxfBytes": 285430,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Polygon.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 62923,
+  "dxfBytes": 273212,
+  "ms": {
+   "load": 9,
+   "convert": 8,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Polyline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 63239,
+  "dxfBytes": 284556,
+  "ms": {
+   "load": 7,
+   "convert": 10,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/RAY.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 62508,
+  "dxfBytes": 272731,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Spline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 61932,
+  "dxfBytes": 273053,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/Text.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 62535,
+  "dxfBytes": 284143,
+  "ms": {
+   "load": 7,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/circle.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2010",
+  "dwgBytes": 64302,
+  "dxfBytes": 280145,
+  "ms": {
+   "load": 9,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 14 件あります"
+  ]
+ },
+ {
+  "file": "/2010/gh209_1.dwg",
+  "verdict": "loss",
+  "code": 68,
+  "dwg": "r2010",
+  "dwgBytes": 65070,
+  "dxfBytes": 246966,
+  "ms": {
+   "load": 7,
+   "convert": 9,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "warn: DWG読込: 範囲外の値を検出",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（2 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 7 件、所有者 4 件）",
+   "warn: LibreDWGのログにエラー行が 3 件あります",
+   "info: LibreDWGのログに警告行が 18 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Arc.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 36305,
+  "dxfBytes": 113478,
+  "ms": {
+   "load": 11,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 7 件）",
+   "info: LibreDWGのログに警告行が 22 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Constraints.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r2013",
+  "dwgBytes": 33206,
+  "dxfBytes": 116829,
+  "ms": {
+   "load": 10,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（4 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 6 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 22 件あります"
+  ]
+ },
+ {
+  "file": "/2013/ConstructionLine.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 31899,
+  "dxfBytes": 113045,
+  "ms": {
+   "load": 8,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Donut.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 31833,
+  "dxfBytes": 112875,
+  "ms": {
+   "load": 9,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Ellipse.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 32090,
+  "dxfBytes": 113265,
+  "ms": {
+   "load": 9,
+   "convert": 5,
+   "analyze": 0
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Helix.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 39095,
+  "dxfBytes": 113093,
+  "ms": {
+   "load": 8,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 1 個あります",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 17 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Leader.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 52977,
+  "dxfBytes": 156526,
+  "ms": {
+   "load": 7,
+   "convert": 5,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（4 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 7 件、所有者 4 件）",
+   "info: ラスター画像の参照が 1 件あります（画像ファイルは含まれません）",
+   "info: LibreDWGのログに警告行が 23 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Line.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 37961,
+  "dxfBytes": 113848,
+  "ms": {
+   "load": 9,
+   "convert": 3,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 7 件）",
+   "info: LibreDWGのログに警告行が 22 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Multiline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 31614,
+  "dxfBytes": 115396,
+  "ms": {
+   "load": 10,
+   "convert": 3,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Point.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 31931,
+  "dxfBytes": 112747,
+  "ms": {
+   "load": 8,
+   "convert": 5,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2013/PolyLine3D.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 30939,
+  "dxfBytes": 114424,
+  "ms": {
+   "load": 9,
+   "convert": 3,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Polygon.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 32156,
+  "dxfBytes": 113484,
+  "ms": {
+   "load": 7,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Polyline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 30782,
+  "dxfBytes": 113104,
+  "ms": {
+   "load": 9,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2013/RAY.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 37634,
+  "dxfBytes": 113152,
+  "ms": {
+   "load": 7,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 7 件）",
+   "info: LibreDWGのログに警告行が 22 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Spline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 31835,
+  "dxfBytes": 112992,
+  "ms": {
+   "load": 9,
+   "convert": 3,
+   "analyze": 0
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 16 件あります"
+  ]
+ },
+ {
+  "file": "/2013/Text.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 31164,
+  "dxfBytes": 113478,
+  "ms": {
+   "load": 7,
+   "convert": 3,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2013/circle.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2013",
+  "dwgBytes": 30971,
+  "dxfBytes": 113056,
+  "ms": {
+   "load": 9,
+   "convert": 3,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2013/gh109_1.dwg",
+  "verdict": "loss",
+  "code": 4,
+  "dwg": "r2013",
+  "dwgBytes": 102258,
+  "dxfBytes": 320580,
+  "ms": {
+   "load": 9,
+   "convert": 10,
+   "analyze": 2
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "error: 図形数の不一致: DXFに出力されていない図形が 25 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（4 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 12 件、所有者 2 件）",
+   "info: LibreDWGのログに警告行が 81 件あります"
+  ]
+ },
+ {
+  "file": "/2013/gh44-error.dwg",
+  "verdict": "loss",
+  "code": 68,
+  "dwg": "r2013",
+  "dwgBytes": 575606,
+  "dxfBytes": 3057528,
+  "ms": {
+   "load": 9,
+   "convert": 92,
+   "analyze": 23
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "warn: DWG読込: 範囲外の値を検出",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（11 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 1121 件、所有者 47 件）",
+   "info: 外部参照が 2 件あります（参照先ファイルは元DWGに含まれません）",
+   "info: ラスター画像の参照が 3 件あります（画像ファイルは含まれません）",
+   "warn: LibreDWGのログにエラー行が 216 件あります",
+   "info: LibreDWGのログに警告行が 2294 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Arc.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27822,
+  "dxfBytes": 109853,
+  "ms": {
+   "load": 7,
+   "convert": 5,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Constraints.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 28932,
+  "dxfBytes": 110864,
+  "ms": {
+   "load": 7,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: プロキシ要素が 5 個あります",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（4 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 8 件、所有者 3 件）",
+   "warn: LibreDWGのログにエラー行が 1 件あります",
+   "info: LibreDWGのログに警告行が 19 件あります"
+  ]
+ },
+ {
+  "file": "/2018/ConstructionLine.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27595,
+  "dxfBytes": 110024,
+  "ms": {
+   "load": 9,
+   "convert": 3,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Donut.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27691,
+  "dxfBytes": 109871,
+  "ms": {
+   "load": 9,
+   "convert": 3,
+   "analyze": 0
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Dynblocks.dwg",
+  "verdict": "loss",
+  "code": 68,
+  "dwg": "r2018",
+  "dwgBytes": 2179277,
+  "dxfBytes": 10001395,
+  "ms": {
+   "load": 8,
+   "convert": 231,
+   "analyze": 49
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "warn: DWG読込: 範囲外の値を検出",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（15 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 31 件、所有者 96 件）",
+   "warn: LibreDWGのログにエラー行が 26 件あります",
+   "info: LibreDWGのログに警告行が 391 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Ellipse.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27883,
+  "dxfBytes": 109920,
+  "ms": {
+   "load": 8,
+   "convert": 5,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Helix.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 33325,
+  "dxfBytes": 109772,
+  "ms": {
+   "load": 7,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 1 個あります",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 17 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Leader.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 34481,
+  "dxfBytes": 123943,
+  "ms": {
+   "load": 7,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（4 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 7 件、所有者 3 件）",
+   "info: ラスター画像の参照が 1 件あります（画像ファイルは含まれません）",
+   "info: LibreDWGのログに警告行が 18 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Line.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27982,
+  "dxfBytes": 110506,
+  "ms": {
+   "load": 8,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/LiveSection1.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 40591,
+  "dxfBytes": 137752,
+  "ms": {
+   "load": 9,
+   "convert": 5,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（4 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 4 件）",
+   "info: LibreDWGのログに警告行が 21 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Multiline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 28462,
+  "dxfBytes": 111563,
+  "ms": {
+   "load": 8,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Point.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27658,
+  "dxfBytes": 109912,
+  "ms": {
+   "load": 8,
+   "convert": 3,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/PolyLine3D.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27819,
+  "dxfBytes": 110872,
+  "ms": {
+   "load": 8,
+   "convert": 3,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Polygon.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27950,
+  "dxfBytes": 110233,
+  "ms": {
+   "load": 8,
+   "convert": 3,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Polyline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27691,
+  "dxfBytes": 109998,
+  "ms": {
+   "load": 9,
+   "convert": 4,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/RAY.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27662,
+  "dxfBytes": 109752,
+  "ms": {
+   "load": 11,
+   "convert": 3,
+   "analyze": 0
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Spline.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27661,
+  "dxfBytes": 110074,
+  "ms": {
+   "load": 9,
+   "convert": 4,
+   "analyze": 0
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 16 件あります"
+  ]
+ },
+ {
+  "file": "/2018/Text.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27916,
+  "dxfBytes": 110495,
+  "ms": {
+   "load": 8,
+   "convert": 3,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/2018/circle.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 27886,
+  "dxfBytes": 109795,
+  "ms": {
+   "load": 8,
+   "convert": 3,
+   "analyze": 0
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 6 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/example_2000.dwg",
+  "verdict": "loss",
+  "code": 4,
+  "dwg": "r2000",
+  "dwgBytes": 582572,
+  "dxfBytes": 1269517,
+  "ms": {
+   "load": 9,
+   "convert": 35,
+   "analyze": 6
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（9 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 15 件、所有者 188 件）",
+   "info: LibreDWGのログに警告行が 106 件あります"
+  ]
+ },
+ {
+  "file": "/example_2004.dwg",
+  "verdict": "loss",
+  "code": 4,
+  "dwg": "r2004",
+  "dwgBytes": 187890,
+  "dxfBytes": 895566,
+  "ms": {
+   "load": 9,
+   "convert": 23,
+   "analyze": 5
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（8 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 15 件、所有者 188 件）",
+   "info: LibreDWGのログに警告行が 107 件あります"
+  ]
+ },
+ {
+  "file": "/example_2007.dwg",
+  "verdict": "loss",
+  "code": 4,
+  "dwg": "r2007",
+  "dwgBytes": 456000,
+  "dxfBytes": 1428695,
+  "ms": {
+   "load": 9,
+   "convert": 40,
+   "analyze": 4
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（8 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 15 件、所有者 8 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 53 件あります"
+  ]
+ },
+ {
+  "file": "/example_2010.dwg",
+  "verdict": "loss",
+  "code": 68,
+  "dwg": "r2010",
+  "dwgBytes": 450071,
+  "dxfBytes": 1375962,
+  "ms": {
+   "load": 9,
+   "convert": 40,
+   "analyze": 4
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "warn: DWG読込: 範囲外の値を検出",
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（9 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 16 件、所有者 8 件）",
+   "warn: LibreDWGのログにエラー行が 2 件あります",
+   "info: LibreDWGのログに警告行が 55 件あります"
+  ]
+ },
+ {
+  "file": "/example_2013.dwg",
+  "verdict": "loss",
+  "code": 68,
+  "dwg": "r2013",
+  "dwgBytes": 146906,
+  "dxfBytes": 626045,
+  "ms": {
+   "load": 9,
+   "convert": 16,
+   "analyze": 4
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "warn: DWG読込: 範囲外の値を検出",
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（9 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 16 件、所有者 7 件）",
+   "warn: LibreDWGのログにエラー行が 6 件あります",
+   "info: LibreDWGのログに警告行が 64 件あります"
+  ]
+ },
+ {
+  "file": "/example_2018.dwg",
+  "verdict": "loss",
+  "code": 68,
+  "dwg": "r2018",
+  "dwgBytes": 149218,
+  "dxfBytes": 621441,
+  "ms": {
+   "load": 9,
+   "convert": 16,
+   "analyze": 4
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "warn: DWG読込: 範囲外の値を検出",
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（9 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 16 件、所有者 8 件）",
+   "warn: LibreDWGのログにエラー行が 6 件あります",
+   "info: LibreDWGのログに警告行が 62 件あります"
+  ]
+ },
+ {
+  "file": "/example_r13.dwg",
+  "verdict": "loss",
+  "code": 68,
+  "dwg": "r13",
+  "dwgBytes": 519995,
+  "dxfBytes": 1249674,
+  "ms": {
+   "load": 10,
+   "convert": 28,
+   "analyze": 8
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "warn: DWG読込: 範囲外の値を検出",
+   "error: 図形数の不一致: DXFに出力されていない図形が 5 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: プロキシ要素が 13 個あります",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（17 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 65 件、所有者 191 件）",
+   "warn: LibreDWGのログにエラー行が 1 件あります",
+   "info: LibreDWGのログに警告行が 147 件あります"
+  ]
+ },
+ {
+  "file": "/example_r14.dwg",
+  "verdict": "loss",
+  "code": 4,
+  "dwg": "r14",
+  "dwgBytes": 439875,
+  "dxfBytes": 804895,
+  "ms": {
+   "load": 9,
+   "convert": 19,
+   "analyze": 4
+  },
+  "issues": [
+   "warn: DWG読込: 未対応のクラスを含む（該当要素はDXFに出力されない）",
+   "error: 図形数の不一致: DXFに出力されていない図形が 6 個あります",
+   "error: LibreDWGが未対応の要素を含みます（DXFには出力されません）",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: MLINE（マルチライン）を含みます",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（23 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 64 件、所有者 216 件）",
+   "info: LibreDWGのログに警告行が 164 件あります"
+  ]
+ },
+ {
+  "file": "/r1.4/entities.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r1.4",
+  "dwgBytes": 1152,
+  "dxfBytes": 3142,
+  "ms": {
+   "load": 10,
+   "convert": 2,
+   "analyze": 0
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 5 個あります",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "error: DXFに TABLES セクションがありません",
+   "error: DXFに BLOCKS セクションがありません",
+   "info: LibreDWGのログに警告行が 2 件あります"
+  ]
+ },
+ {
+  "file": "/r10/entities.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r10",
+  "dwgBytes": 4305,
+  "dxfBytes": 9149,
+  "ms": {
+   "load": 7,
+   "convert": 1,
+   "analyze": 0
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 4 個あります",
+   "warn: レイヤー数の不一致",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "error: 文字列の不一致: 2 / 9 件がDXF内で同一文字列として見つかりません"
+  ]
+ },
+ {
+  "file": "/r10/tmp_line.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r10",
+  "dwgBytes": 2421,
+  "dxfBytes": 5002,
+  "ms": {
+   "load": 9,
+   "convert": 0,
+   "analyze": 0
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 3 個あります",
+   "warn: レイヤー数の不一致",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています"
+  ]
+ },
+ {
+  "file": "/r11/ACEB10.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r11",
+  "dwgBytes": 93538,
+  "dxfBytes": 111483,
+  "ms": {
+   "load": 10,
+   "convert": 5,
+   "analyze": 2
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 1213 個あります",
+   "warn: DXF側で数が増えた図形タイプがあります（分解・変換の可能性）",
+   "warn: レイヤー数の不一致",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（1 種類）",
+   "error: 文字列の不一致: 46 / 120 件がDXF内で同一文字列として見つかりません",
+   "info: LibreDWGのログに警告行が 236 件あります"
+  ]
+ },
+ {
+  "file": "/r11/entities-2d.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r11",
+  "dwgBytes": 5416,
+  "dxfBytes": 10015,
+  "ms": {
+   "load": 10,
+   "convert": 1,
+   "analyze": 0
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "warn: レイヤー数の不一致",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "error: 文字列の不一致: 2 / 9 件がDXF内で同一文字列として見つかりません"
+  ]
+ },
+ {
+  "file": "/r11/entities-3d.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r11",
+  "dwgBytes": 5522,
+  "dxfBytes": 10154,
+  "ms": {
+   "load": 7,
+   "convert": 1,
+   "analyze": 0
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "warn: レイヤー数の不一致",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "error: 文字列の不一致: 2 / 9 件がDXF内で同一文字列として見つかりません"
+  ]
+ },
+ {
+  "file": "/r14/Constraints.dwg",
+  "verdict": "warnings",
+  "code": 64,
+  "dwg": "r14",
+  "dwgBytes": 152763,
+  "dxfBytes": 199133,
+  "ms": {
+   "load": 8,
+   "convert": 5,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: DWG読込: 範囲外の値を検出",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（13 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 69 件、所有者 30 件）",
+   "warn: LibreDWGのログにエラー行が 1 件あります",
+   "info: LibreDWGのログに警告行が 84 件あります"
+  ]
+ },
+ {
+  "file": "/r14/Leader.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r14",
+  "dwgBytes": 156898,
+  "dxfBytes": 209345,
+  "ms": {
+   "load": 9,
+   "convert": 5,
+   "analyze": 1
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 1 個あります",
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（11 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 68 件、所有者 30 件）",
+   "info: ラスター画像の参照が 1 件あります（画像ファイルは含まれません）",
+   "info: LibreDWGのログに警告行が 89 件あります"
+  ]
+ },
+ {
+  "file": "/r14/v.dwg",
+  "verdict": "clean",
+  "code": 0,
+  "dwg": "r14",
+  "dwgBytes": 26840,
+  "dxfBytes": 13952,
+  "ms": {
+   "load": 8,
+   "convert": 1,
+   "analyze": 0
+  },
+  "issues": [
+   "info: LibreDWGのログに警告行が 8 件あります"
+  ]
+ },
+ {
+  "file": "/r2.10/block.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r2.10",
+  "dwgBytes": 1313,
+  "dxfBytes": 2769,
+  "ms": {
+   "load": 7,
+   "convert": 0,
+   "analyze": 0
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "info: LibreDWGのログに警告行が 4 件あります"
+  ]
+ },
+ {
+  "file": "/r2.10/entities.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r2.10",
+  "dwgBytes": 2236,
+  "dxfBytes": 4767,
+  "ms": {
+   "load": 8,
+   "convert": 1,
+   "analyze": 0
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "info: LibreDWGのログに警告行が 11 件あります"
+  ]
+ },
+ {
+  "file": "/r2.6/dim.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r2.6",
+  "dwgBytes": 4253,
+  "dxfBytes": 9733,
+  "ms": {
+   "load": 10,
+   "convert": 1,
+   "analyze": 0
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 2 個あります",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "info: LibreDWGのログに警告行が 12 件あります"
+  ]
+ },
+ {
+  "file": "/r2.6/entities.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r2.6",
+  "dwgBytes": 3347,
+  "dxfBytes": 7529,
+  "ms": {
+   "load": 7,
+   "convert": 1,
+   "analyze": 0
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 4 個あります",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "error: 文字列の不一致: 2 / 9 件がDXF内で同一文字列として見つかりません",
+   "info: LibreDWGのログに警告行が 15 件あります"
+  ]
+ },
+ {
+  "file": "/r9/entities.dwg",
+  "verdict": "loss",
+  "code": 0,
+  "dwg": "r9",
+  "dwgBytes": 3476,
+  "dxfBytes": 7947,
+  "ms": {
+   "load": 8,
+   "convert": 1,
+   "analyze": 0
+  },
+  "issues": [
+   "error: 図形数の不一致: DXFに出力されていない図形が 4 個あります",
+   "warn: レイヤー数の不一致",
+   "warn: テーブル（線種・文字スタイル・寸法スタイル等）の件数が減っています",
+   "error: 文字列の不一致: 2 / 9 件がDXF内で同一文字列として見つかりません",
+   "info: LibreDWGのログに警告行が 16 件あります"
+  ]
+ },
+ {
+  "file": "/sample_2000.dwg",
+  "verdict": "clean",
+  "code": 0,
+  "dwg": "r2000",
+  "dwgBytes": 22027,
+  "dxfBytes": 53841,
+  "ms": {
+   "load": 9,
+   "convert": 2,
+   "analyze": 0
+  },
+  "issues": [
+   "info: LibreDWGのログに警告行が 6 件あります"
+  ]
+ },
+ {
+  "file": "/sample_2018.dwg",
+  "verdict": "warnings",
+  "code": 0,
+  "dwg": "r2018",
+  "dwgBytes": 19848,
+  "dxfBytes": 78402,
+  "ms": {
+   "load": 8,
+   "convert": 2,
+   "analyze": 1
+  },
+  "issues": [
+   "warn: LibreDWGで「不安定」扱いの要素を含みます（内容が不完全な可能性）",
+   "warn: 図形以外の定義データの一部がDXFに出力されていません（3 種類）",
+   "warn: DXF内に参照先が存在しない参照があります（辞書 5 件、所有者 3 件）",
+   "info: LibreDWGのログに警告行が 16 件あります"
+  ]
+ }
+]

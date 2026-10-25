@@ -1,0 +1,20 @@
+out_dxf: terminate the cquote() result after the last written character
+
+cquote() only wrote a NUL into the last byte of the malloc'ed destination
+buffer, so strlen() in dxf_fixup_string() read uninitialized memory between
+the end of the quoted text and the end of the buffer. With a fresh, zeroed
+heap (e.g. native Windows) this is invisible; with a reused heap (WebAssembly
+dlmalloc) random bytes were appended to strings containing a newline, e.g.
+TOLERANCE text "...%%v^J10" became "...%%v^J10\U+B10Djsj...".
+
+--- a/src/out_dxf.c
++++ b/src/out_dxf.c
+@@ -1370,7 +1370,9 @@
+       else
+         *dest++ = c;
+     }
++  if (dest < dend)
++    *dest = '\0'; // terminate after the last written char
+   d[len - 1] = '\0'; // add final delim, skipped above
+   return d;
+ }
