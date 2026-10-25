@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; worker-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#1f4e79">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="DWG→DXF">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="stylesheet" href="style.css">
+<title>DWG→DXF 変換</title>
+</head>
+<body>
+<header>
+  <h1>DWG→DXF 変換</h1>
+  <p class="sub">図面は端末内だけで変換します。変換中に図面データを送信しません。</p>
+  <p id="offline" class="badge">オフライン準備: 確認中…</p>
+</header>
+
+<main>
+  <section class="card">
+    <label class="file">
+      <input id="file" type="file">
+      <span>DWGファイルを選択</span>
+    </label>
+    <p id="fileinfo" class="muted">未選択</p>
+
+    <p class="muted">DXFは元のDWGと同じバージョンで出力します（LibreDWG 0.14 の別バージョンへの変換は、試験で図形の大量欠落が確認されたため使用しません）。</p>
+
+    <button id="go" type="button" disabled>変換する</button>
+  </section>
+
+  <section id="status" class="card" hidden>
+    <p id="stage"></p>
+    <progress id="spinner"></progress>
+  </section>
+
+  <section id="result" class="card" hidden>
+    <h2 id="verdict"></h2>
+    <p id="verdictNote" class="muted"></p>
+    <div class="actions">
+      <button id="save" type="button">DXFを保存</button>
+      <button id="share" type="button" hidden>共有…</button>
+      <button id="metrics" type="button" class="secondary">測定結果をコピー</button>
+    </div>
+    <textarea id="metricsText" rows="8" readonly hidden></textarea>
+    <dl id="facts" class="facts"></dl>
+    <h3>検出した問題・注意点</h3>
+    <ul id="issues" class="issues"></ul>
+    <details>
+      <summary>図形タイプ別の件数（DWG読込 vs DXF出力）</summary>
+      <div class="scroll"><table id="ents"><thead><tr><th>タイプ</th><th>DWG</th><th>DXF</th><th>差</th></tr></thead><tbody></tbody></table></div>
+    </details>
+    <details>
+      <summary>文字列の照合</summary>
+      <div id="texts"></div>
+    </details>
+    <details>
+      <summary>LibreDWGのログ</summary>
+      <pre id="log"></pre>
+    </details>
+  </section>
+
+  <section class="card small">
+    <h3>この変換について</h3>
+    <ul>
+      <li>変換エンジン: GNU LibreDWG をWebAssembly化したもの（端末内で実行）。</li>
+      <li>通信が発生するのは、最初にこのページを開いた時と「更新を確認」を押した時です。読み込み後は機内モードでも変換できます（端末内の保存データが残っている場合）。</li>
+      <li>ブラウザ自身が、起動時に更新確認用の小さなファイル（sw.js）を取りに行くことがあります。アプリの中身は変わらず、図面データは含まれません。</li>
+      <li>「自動チェックで差異なし」は、DWGから読めた要素とDXFに書かれた要素の件数・文字列が一致したという意味です。CADソフトでの表示確認の代わりにはなりません。</li>
+      <li>LibreDWGが読めない要素は、件数の比較にも現れないことがあります。</li>
+    </ul>
+    <p class="muted" id="ver"></p>
+    <p class="muted">アプリは自動で更新しません。新しい版を取り込む時だけ、下のボタンで通信します。</p>
+    <button id="update" type="button" class="secondary">更新を確認</button>
+    <p class="muted" id="updateStatus"></p>
+    <p class="muted">本アプリは GPL-3.0-or-later です。<a href="LICENSE.txt">ライセンス</a> / <a href="SOURCE.txt">ソースコードの入手方法</a></p>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+ "version": "0.2.0",
+ "files": [
+  "./",
+  "LICENSE.txt",
+  "SOURCE.txt",
+  "analyze.js",
+  "app.js",
+  "engine/dwg2dxf.js",
+  "engine/dwg2dxf.wasm",
+  "icons/icon-180.png",
+  "icons/icon-192.png",
+  "icons/icon-512.png",
+  "icons/icon.svg",
+  "index.html",
+  "manifest.webmanifest",
+  "style.css",
+  "worker.js"
+ ]
+}

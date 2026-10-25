@@ -1,0 +1,24 @@
+DWG→DXF 変換（端末内） — ソースコードの入手方法 / Corresponding Source
+=====================================================================
+
+このアプリは GNU General Public License v3 (or later) で配布します。
+This app is distributed under the GNU GPL version 3 or later (see LICENSE.txt).
+
+1. 変換エンジン / Conversion engine
+   GNU LibreDWG 0.14 (公式リリース)
+   https://github.com/LibreDWG/libredwg/releases/download/0.14/libredwg-0.14.tar.xz
+   sha256 62ebb73b984f865960f20ed26619ea5f8789d5e3fd088fa40a2598384da81275
+
+   適用した変更 / Local modifications:
+   engine/patches/0001-out_dxf-cquote-terminate-string.patch
+
+2. このアプリのソース / This app's source
+   engine/wasm_dwg2dxf.c   WebAssembly 入口（LibreDWG呼び出し・要約JSON）
+   engine/build.sh         ビルド手順（Emscripten）
+   web/                    画面・Worker・照合処理・Service Worker
+   tools/                  開発用の検証ツール
+
+   ソース一式: https://github.com/tlabbusiness612-a11y/dwg2dxf
+   公開アプリ: https://tlabbusiness612-a11y.github.io/dwg2dxf/
+
+ビルド環境 / Build environment: Emscripten 6.0.13
